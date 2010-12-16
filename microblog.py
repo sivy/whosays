@@ -8,8 +8,8 @@ import os
 
 import twitter
 
-API_ACCOUNT = "remsays";
-API_PWD = "worldleaderpretend";
+API_ACCOUNT = "";
+API_PWD = "";
 
 class TwitterHandler(webapp.RequestHandler):
 
