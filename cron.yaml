@@ -1,0 +1,4 @@
+cron:
+    - description: post a quote to twitter every 30 mins!
+      url: /post_as_tweet
+      schedule: every 30 minutes

@@ -1,0 +1,47 @@
+body {
+    background: url(/images/rem_background.gif) repeat-y 50% 0;
+    background-color: #E6EEE4;
+    margin: 0;
+}
+a {
+    color:#004D79;
+}
+h3 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+#container {
+    margin: 30px auto;
+    width: 230px;
+    background-color: #fff;
+    font-size:16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #333;
+}
+#title {
+    font-family: Impact;
+    font-size: 45px;
+    color: #666;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#quotetext {
+    padding: 5px;
+}
+.footer {
+    font-size: 80%;
+    padding: 5px;
+    color: #222;
+}
+<?php else: ?>
+body {
+    margin: 0;
+}
+#container {
+
+}

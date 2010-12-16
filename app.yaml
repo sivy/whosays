@@ -1,0 +1,22 @@
+application: wallrazerapp
+version: 1-4-1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /images
+  static_dir: images
+  
+- url: /styles
+  static_dir: styles
+
+- url: /edit
+  script: edit.py
+  login: admin
+
+- url: /post_as_tweet
+  script: microblog.py
+  login: admin
+
+- url: .*
+  script: main.py
